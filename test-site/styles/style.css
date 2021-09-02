@@ -1,0 +1,47 @@
+ul {
+  list-style: disc;
+}
+
+ol {
+  color: #0074FA;
+}
+
+a:link {
+  color: #0074FA;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+.cols {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.col1 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+        width: 537px;
+	height: 198px;
+        padding-left: 10px;
+}
+.col2 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	width: 714px;
+	height: 212px;
+        padding-right: 63.36px;
+}
+.col1 + .col2 {
+	margin-left: 75.64px;
+}
